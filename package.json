@@ -1,0 +1,33 @@
+{
+  "name": "simple-vue-ioc",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "ioc",
+    "di",
+    "plugin",
+    "typescript",
+    "dependency injection"
+  ],
+  "author": "Daniel Reyes Epitacio",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.14"
+  }
+}
