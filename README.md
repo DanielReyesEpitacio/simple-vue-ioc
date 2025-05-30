@@ -45,8 +45,22 @@ createApp(App).use(iocPlugin).mount("#app");
 //----- En algun componente ---//
 //-----------------------------//
 <script setup>
+import { inject } from 'vue'
 import { UserService } from "./userService";
 
 const userService = inject("userService");
 </script>
 ```
+
+## ¿Te fue útil? ¿Tienes dudas? ¿Quieres contribuir?
+
+¡Gracias por usar `simple-vue-ioc`! 🥹  
+Si este paquete te ha sido útil, tienes ideas y/o dudas para mejorarlo, me encantaría saber de ti.  
+Puedes:
+
+- 📧 Escribirme a **danielreyesepitacio@gmail.com**
+- 💬 Abrir un [issue](https://github.com/DanielReyesEpitacio/simple-vue-ioc/issues) para compartir feedback, ideas o bugs
+- ⭐ Dejar una estrella en [GitHub](https://github.com/DanielReyesEpitacio/simple-vue-ioc) si te gustó
+- 🛠️ Enviar un pull request si quieres contribuir directamente
+
+¡Toda participación es bienvenida! 💛
